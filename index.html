@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="js/attention.js-master/dist/attention.css" rel="stylesheet">
+    </head>
+    <body>
+        <script src="js/attention.js-master/dist/attention.js"></script>
+
+        <script>
+            var password = "duralinefuturepath";
+           
+            new Attention.Prompt({
+                title: 'Welcome to the Duraline Financial Tool',
+                content: 'Please enter password',
+                onSubmit: function(component, value) {
+                    if (value.toLowerCase() == password) {     
+                        new Attention.Confirm({
+                            title: 'Disclaimer',
+                            content: 'The Dura-Line Financial tool is for demonstration purposes only. The financial metrics presented here, including but not limited to investment comparison, project savings, Labor and Material Costs, Cost and Savings are only estimates and subject to change. I acknowledge that the assumptions underlying the calculator may not be accurate for all purposes',
+                            buttonCancel: true, // custom button text
+                            buttonConfirm: true,
+                            useInnerHTML: true,
+                            onConfirm: function(component) {
+                                window.location = "inicio.html";
+                                
+                            },
+                            onCancel(component) {
+                                console.log(component);
+                                window.location = "index.html";
+                            }
+                        });
+                    }else{
+                        window.location = "index.html";
+                    }              
+                }
+            });
+
+        </script>
+
+
+
+    </body>
+</html>

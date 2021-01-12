@@ -1,0 +1,386 @@
+﻿[
+        {
+            "Family": "Conduit",
+            "Product": "Conduit - None"
+        },
+        {
+            "Family": "Conduit",
+            "Product": "Triduct 40mm"
+        },
+        {
+            "Family": "Conduit",
+            "Product": "Biduct 40mm"
+        },
+        {
+            "Family": "Conduit",
+            "Product": "Single duct 40mm"
+        },
+        {
+            "Family": "Conduit",
+            "Product": "Single duct 50mm"
+        },
+        {
+            "Family": "Conduit",
+            "Product": "PVC 3\" Corrugated outside"
+        },
+        {
+            "Family": "Conduit",
+            "Product": "PVC 4\" Corrugated outside"
+        },
+        {
+            "Family": "Conduit",
+            "Product": "PVC 6\" Corrugated outside"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "Pathway - None"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 2-way 27/20"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 2-way 22/16"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 2-way 18/14"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 2-way 16/13"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 2-way 16/12"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 2-way 14/10"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 2-way 12.7/10"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 2-way 8.5/6 (No Locate)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 2-way 5/3.5 (No Locate)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 27/20"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 22/16"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 18/14"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 18/14 (Thicker OS)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 18/14 (Flat)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 16/13"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 16/13 (Flat)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 16/12"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 16/12 (Flat)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 14/10"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 12.7/10"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 10/8"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 10/8 (Flat)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 10/8 (Flat/Double OS)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 8.5/6 (No Locate)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 3-way 5/3.5"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 27/20"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 22/16"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 18/14"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 18/14 (Thicker OS)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 16/13"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 16/13 (Flat)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 16/12"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 16/12 (Thicker OS)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 14/10"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 12.7/10"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 12.7/10 (Thicker OS)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 12.7/10 (Flat)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 10/8"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 10/8 (Thicker OS)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 8.5/6 (No Locate)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 4-way 5/3.5 (No Locate)"
+        },
+        {
+            "Family": "Pathway",
+            "Product": "FuturePath 7-way 27/20"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 7-way 22/16"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 7-way 18/14"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 7-way 18/14 (Thicker OS)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 7-way 16/13"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 7-way 16/13 (Thicker OS)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 7-way 16/12"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 7-way 16/12 (Thicker OS)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 7-way 14/10"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 7-way 14/10 (Thicker OS)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 7-way 12.7/10"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 7-way 12.7/10 (Thicker OS)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 7-way 10/8"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 7-way 8.5/6 (No Locate)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 7-way 7/5.5"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "FuturePath 7-way 5/3.5 (No Locate)"
+        },
+        {
+            "Family": "PathWay",
+            "Product": "Custom"
+        },
+        {
+            "Family": "Cable",
+            "Product": "NA"
+        },
+        {
+            "Family": "Cable",
+            "Product": "Std Cable1"
+        },
+        {
+            "Family": "Cable",
+            "Product": "Std Cable 2"
+        },
+        {
+            "Family": "Cable",
+            "Product": "Std Cable 3"
+        },
+        {
+            "Family": "Cable",
+            "Product": "Std Cable 4"
+        },
+        {
+            "Family": "Cable",
+            "Product": "Std Cable 5"
+        },
+        {
+            "Family": "Microcable",
+            "Product": "NA"
+        },
+        {
+            "Family": "Microcable",
+            "Product": "Micro Cable1"
+        },
+        {
+            "Family": "Microcable",
+            "Product": "Micro Cable2"
+        },
+        {
+            "Family": "Microcable",
+            "Product": "Micro Cable3"
+        },
+        {
+            "Family": "Microcable",
+            "Product": "Micro Cable4"
+        },
+        {
+            "Family": "Microcable",
+            "Product": "Micro Cable5"
+        },
+        {
+            "Family": "Closers/terminals",
+            "Product": "NA"
+        },
+        {
+            "Family": "Closers/terminals",
+            "Product": "Yes"
+        },
+        {
+            "Family": "Pathway Installation",
+            "Product": "NA"
+        },
+        {
+            "Family": "Pathway Installation",
+            "Product": "Aerial"
+        },
+        {
+            "Family": "Pathway Installation",
+            "Product": "HDD - Rural Area"
+        },
+        {
+            "Family": "Pathway Installation",
+            "Product": "HDD - Urban Area"
+        },
+        {
+            "Family": "Pathway Installation",
+            "Product": "Direct Bury - Open Trench"
+        },
+        {
+            "Family": "Pathway Installation",
+            "Product": "Direct Bury - Directional Bore "
+        },
+        {
+            "Family": "Pathway Installation",
+            "Product": "Direct Bury - Plow"
+        },
+        {
+            "Family": "Pathway Installation",
+            "Product": "MicroTrench"
+        },
+        {
+            "Family": "Pathway Installation",
+            "Product": "Custom"
+        },
+        {
+            "Family": "Cable Installation",
+            "Product": "Not Required"
+        },
+        {
+            "Family": "Cable Installation",
+            "Product": "Jetted Std Cable Inst'll "
+        },
+        {
+            "Family": "Cable Installation",
+            "Product": "Pulled Std Cable Inst'll "
+        },
+        {
+            "Family": "Cable Installation",
+            "Product": "Std Cable Inst'll "
+        },
+        {
+            "Family": "MicroCable Installation",
+            "Product": "Not Required"
+        },
+        {
+            "Family": "MicroCable Installation",
+            "Product": "Jetted Micro Cable Inst'll"
+        }
+]
