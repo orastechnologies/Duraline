@@ -23,10 +23,13 @@ class CostosProductos {
             case '1':
                 xhr.open('GET', 'costdata2.txt', true);
                 break;
-            case '2':
+            case '2': //Canada lo mismo que USA
+                xhr.open('GET', 'costdata2.txt', true);
+                break;
+            case '3':
                 xhr.open('GET', 'costdataLatam.txt', true);
                 break;
-            default: //Por ahora no hay opción para Asia Pacific, Europe or Middle East
+            default: //Por ahora no hay opción para India, Europe or Middle East
                 xhr.open('GET', 'costdata2.txt', true);
                 regionSelector.value = 1; //vuelve a seleccionar el primer ítem de la lista
                 break;               
@@ -280,86 +283,87 @@ class ChartCanvas {
             chartBarCosto.update();
           } else {        
             chartBarCosto = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ['CAPEX', 'Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5', 'Year 6', 'Year 7', 'Year 8', 'Year 9', 'Year 10'],
-                datasets: [{
-                    label: 'Cost with Conduit [US]',
-                    data: calculoPerfilesarreglo[0],//[dato1, dato1, 15, 5, 2, dato1, 10, 10, 10, 10],
-                    backgroundColor: [
-                        'rgba(242, 38, 19, 0.8)',
-                        'rgba(242, 38, 19, 0.8)',
-                        'rgba(242, 38, 19, 0.8)',
-                        'rgba(242, 38, 19, 0.8)',
-                        'rgba(242, 38, 19, 0.8)',
-                        'rgba(242, 38, 19, 0.8)',
-                        'rgba(242, 38, 19, 0.8)',
-                        'rgba(242, 38, 19, 0.8)',
-                        'rgba(242, 38, 19, 0.8)',
-                        'rgba(242, 38, 19, 0.8)',
-                        'rgba(242, 38, 19, 0.8)'
-                    ],
-                    borderColor: [
-                        'rgba(150, 40, 27, 1)',
-                        'rgba(150, 40, 27, 1)',
-                        'rgba(150, 40, 27, 1)',
-                        'rgba(150, 40, 27, 1)',
-                        'rgba(150, 40, 27, 1)',
-                        'rgba(150, 40, 27, 1)',
-                        'rgba(150, 40, 27, 1)',
-                        'rgba(150, 40, 27, 1)',
-                        'rgba(150, 40, 27, 1)',
-                        'rgba(150, 40, 27, 1)',
-                        'rgba(150, 40, 27, 1)'
-                    ],
-                    borderWidth: 1
-                    },{ label: 'Cost with FuturePath [US]',
-                    data: calculoPerfilesarreglo[1],//[dato1, 19, 3, 5, 2, 3, 10, 10, 10, 10],
-                    backgroundColor: [
-                        'rgba(31, 58, 147, 0.8)',
-                        'rgba(31, 58, 147, 0.8)',
-                        'rgba(31, 58, 147, 0.8)',
-                        'rgba(31, 58, 147, 0.8)',
-                        'rgba(31, 58, 147, 0.8)',
-                        'rgba(31, 58, 147, 0.8)',
-                        'rgba(31, 58, 147, 0.8)',
-                        'rgba(31, 58, 147, 0.8)',
-                        'rgba(31, 58, 147, 0.8)',
-                        'rgba(31, 58, 147, 0.8)',
-                        'rgba(31, 58, 147, 0.8)'
-                    ],
-                    borderColor: [
-                        'rgba(34, 49, 63, 1)',
-                        'rgba(34, 49, 63, 1)',
-                        'rgba(34, 49, 63, 1)',
-                        'rgba(34, 49, 63, 1)',
-                        'rgba(34, 49, 63, 1)',
-                        'rgba(34, 49, 63, 1)',
-                        'rgba(34, 49, 63, 1)',
-                        'rgba(34, 49, 63, 1)',
-                        'rgba(34, 49, 63, 1)',
-                        'rgba(34, 49, 63, 1)',
-                        'rgba(34, 49, 63, 1)'
-                    ],
-                    borderWidth: 1
-                   }
-                ]
-            },
-            options: {
-                title: {
-                    display: true,
-                    fontSize : 20,
-                    text: 'Investment comparisons over 10 yrs. period'
+                type: 'bar',
+                data: {
+                    labels: ['CAPEX', 'Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5', 'Year 6', 'Year 7', 'Year 8', 'Year 9', 'Year 10'],
+                    datasets: [{
+                        label: 'Cost with Conduit [US]',
+                        data: calculoPerfilesarreglo[0],//[dato1, dato1, 15, 5, 2, dato1, 10, 10, 10, 10],
+                        backgroundColor: [
+                            'rgba(242, 38, 19, 0.8)',
+                            'rgba(242, 38, 19, 0.8)',
+                            'rgba(242, 38, 19, 0.8)',
+                            'rgba(242, 38, 19, 0.8)',
+                            'rgba(242, 38, 19, 0.8)',
+                            'rgba(242, 38, 19, 0.8)',
+                            'rgba(242, 38, 19, 0.8)',
+                            'rgba(242, 38, 19, 0.8)',
+                            'rgba(242, 38, 19, 0.8)',
+                            'rgba(242, 38, 19, 0.8)',
+                            'rgba(242, 38, 19, 0.8)'
+                        ],
+                        borderColor: [
+                            'rgba(150, 40, 27, 1)',
+                            'rgba(150, 40, 27, 1)',
+                            'rgba(150, 40, 27, 1)',
+                            'rgba(150, 40, 27, 1)',
+                            'rgba(150, 40, 27, 1)',
+                            'rgba(150, 40, 27, 1)',
+                            'rgba(150, 40, 27, 1)',
+                            'rgba(150, 40, 27, 1)',
+                            'rgba(150, 40, 27, 1)',
+                            'rgba(150, 40, 27, 1)',
+                            'rgba(150, 40, 27, 1)'
+                        ],
+                        borderWidth: 1
+                        },{ label: 'Cost with FuturePath [US]',
+                        data: calculoPerfilesarreglo[1],//[dato1, 19, 3, 5, 2, 3, 10, 10, 10, 10],
+                        backgroundColor: [
+                            'rgba(31, 58, 147, 0.8)',
+                            'rgba(31, 58, 147, 0.8)',
+                            'rgba(31, 58, 147, 0.8)',
+                            'rgba(31, 58, 147, 0.8)',
+                            'rgba(31, 58, 147, 0.8)',
+                            'rgba(31, 58, 147, 0.8)',
+                            'rgba(31, 58, 147, 0.8)',
+                            'rgba(31, 58, 147, 0.8)',
+                            'rgba(31, 58, 147, 0.8)',
+                            'rgba(31, 58, 147, 0.8)',
+                            'rgba(31, 58, 147, 0.8)'
+                        ],
+                        borderColor: [
+                            'rgba(34, 49, 63, 1)',
+                            'rgba(34, 49, 63, 1)',
+                            'rgba(34, 49, 63, 1)',
+                            'rgba(34, 49, 63, 1)',
+                            'rgba(34, 49, 63, 1)',
+                            'rgba(34, 49, 63, 1)',
+                            'rgba(34, 49, 63, 1)',
+                            'rgba(34, 49, 63, 1)',
+                            'rgba(34, 49, 63, 1)',
+                            'rgba(34, 49, 63, 1)',
+                            'rgba(34, 49, 63, 1)'
+                        ],
+                        borderWidth: 1
+                       }
+                    ]
                 },
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            beginAtZero: true
-                        }
-                    }]
+                options: {
+                    title: {
+                        display: true,
+                        fontSize : 20,
+                        text: 'Investment comparisons over 10 yrs. period'
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    }
                 }
-            }
-        });}
+            });
+    }
 
     }
 
@@ -1185,10 +1189,10 @@ function createCostTable(tableData){
         cellth.appendChild(document.createTextNode(Column[index]));
         row.appendChild(cellth);
 
-        cell.appendChild(document.createTextNode(tableData[0][index]));
+        cell.appendChild(document.createTextNode(tableData[0][index].toFixed(2)));
         row.appendChild(cell);
 
-        cell2.appendChild(document.createTextNode(tableData[1][index]));
+        cell2.appendChild(document.createTextNode(tableData[1][index].toFixed(2)));
         row.appendChild(cell2);
   
         tableBody.appendChild(row);
@@ -1199,6 +1203,7 @@ function createCostTable(tableData){
     parametroObject.appendChild(table);
 }
 
+//Llena la tabla Cost and Savings over 10 years period
 function createTable(tableData) {
     const parametroObject = document.getElementById("NPVTable");
     const label = [' ','CAPEX', 'Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5', 'Year 6', 'Year 7', 'Year 8', 'Year 9', 'Year 10'];
@@ -1248,7 +1253,7 @@ function createTable(tableData) {
     rowdif.appendChild(celldif);
     diferencia.forEach(function(cellData) {
         var cell = document.createElement('td');
-        cell.appendChild(document.createTextNode(cellData));
+        cell.appendChild(document.createTextNode(cellData.toFixed(2)));
         rowdif.appendChild(cell);
       });
     tableBody.appendChild(rowdif);
